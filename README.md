@@ -7,19 +7,26 @@ STUDENT_ID=学籍番号
 NAME=名前
 ```
 
+ツールのインストール
+```sh
+brew install --cask mactex \
+brew install pdfjam \
+brew install poppler
+```
+
 ## コマンド
 - PDF生成コマンド
 
-pdfフォルダにsample.texをコンパイルした卒論が生成される
+	pdfフォルダにsample.texをコンパイルした卒論が生成される
 
-```bash
-make pdf
-```
+	```bash
+	make pdf
+	```
 
 - 文字数カウントコマンド
 
-卒論の文字数がカウントされる
+	卒論の文字数がカウントされる
 
-```bash
-make count
-```
+	```bash
+	make count
+	```
